@@ -1,0 +1,12 @@
+body
+{
+background-image:url(natu.jpg);
+border:4px solid red;
+
+}
+.f2
+{
+	border:3px solid green;
+	color:red;
+	width:500px;
+}

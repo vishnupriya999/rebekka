@@ -1,0 +1,51 @@
+
+body
+{
+margin:0;
+padding:0;
+background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5));
+}
+.slider
+{
+width:800px;
+height:400px;
+background:url("blue.jpg");
+margin:40px auto;
+animation:slide 20s infinite;
+}
+@keyframes slide
+{
+	25%
+	{
+		background:url(images.jpg);
+	}
+	50%
+	{
+		background:url(blue.jpg);
+	}
+	75%
+	{
+		background:url(air.jpg);
+	}
+	100%
+	{
+		background:url(seats.jpg);
+	}
+}
+.container2
+{
+	font-family:sans-serif;
+	color:white;
+}
+.container3
+{
+	font-family:sans-serif;
+	color:white;
+}
+.paragraph
+{
+	color:blue;
+	text-align:center;
+	font-family:jokerman;
+	font-size:20px;
+}
